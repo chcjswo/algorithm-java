@@ -7,17 +7,30 @@ public class Main {
         
         int tc = sc.nextInt();
         sc.nextLine();
-        Stack<String> data = new Stack<String>();
         
         while (tc-- > 0) {
-        	String line = sc.nextLine();
+            Stack<Integer> data = new Stack<Integer>();
+        	String line = sc.nextLine().trim();
+        	boolean b = true;
+        	
         	for (int i=0; i<line.length(); i++) {
         		String ps = line.substring(i, i+1);
-        		System.out.println(ps);
-        		//if ()
-        		data.push(ps);
+
+        		if (")".equals(ps)) {
+        			if (data.empty()) {
+        				b = false;
+        			} else {
+        				data.pop();
+        			}
+        		} else {
+        			data.push(i);
+        		}
         	}
-        	System.out.println(data.empty());
+        	
+        	if (b)
+        		System.out.println("YES");
+        	else
+        		System.out.println("NO");
         }
     }
 }
