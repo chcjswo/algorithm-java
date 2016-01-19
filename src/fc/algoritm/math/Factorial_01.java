@@ -4,12 +4,12 @@ import java.util.Scanner;
 public class Factorial_01{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
+        long a = sc.nextInt();
         
         System.out.println(factorial(a));
     }
     
-    public static int factorial(int x) {
+    public static long factorial(long x) {
     	if (x <= 1) 
     		return x;
     	
