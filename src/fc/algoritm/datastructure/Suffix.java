@@ -1,5 +1,6 @@
 package fc.algoritm.datastructure;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Suffix {
@@ -17,19 +18,19 @@ public class Suffix {
 	        count++;
 		}
         
-        for (int i = 0; i < arr.length; i++) {
-			int x = arr[i].substring(0, 1).charAt(0);
-        	for (int j=i+1; j< arr.length; j++) {
-				int y = arr[j].substring(0, 1).charAt(0);
+//        for (int i = 0; i < arr.length; i++) {
+//        	for (int j=i+1; j< arr.length; j++) {
+//
+//				if (arr[i].compareTo(arr[j]) > 0) {
+//					String t = arr[i];
+//					arr[i] = arr[j];
+//					arr[j] = t;
+//				}
+//        	}
+//		}
 
-				if (x > y) {
-					String t = arr[i];
-					arr[i] = arr[j];
-					arr[j] = t;
-					x = y;
-				}
-        	}
-		}
+        Arrays.sort(arr);                                                                                                  
+
         
         for (String v : arr) {
         	System.out.println(v);
