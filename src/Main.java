@@ -1,18 +1,22 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String args[]){
+    public static void main(String args[]) {
+    	
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        sc.nextLine();
-        String s = sc.nextLine();
-        int sum = 0;
         
-        for (int i=0; i<s.length(); i++) {
-        	sum += Integer.parseInt(s.substring(i, i+1));
+        while (sc.hasNext()) {
+	        String s = sc.nextLine();
+	        
+	        for (int i=0; i<s.length(); i++) {
+	        	if (i >0 && i%10 == 0) {
+	        		System.out.println("");
+	        		System.out.print(s.charAt(i));
+	        	} else {
+	        		System.out.print(s.charAt(i));
+	        	}
+	        }
         }
-        
-        System.out.println(sum);
     }
 
 }
