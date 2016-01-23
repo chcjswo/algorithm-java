@@ -17,13 +17,11 @@ public class Rot13 {
 				if (x > 90) {
 					x = x - 90 + 65 - 1;
 				}
-				data[i] = (char) x;
 			} else if (x >= 97 && x <= 122) {
 				x += 13;
 				if (x > 122) {
 					x = x - 122 + 97 - 1;
 				}
-				data[i] = (char) x;
 			}
 			data[i] = (char) x;
 		}
