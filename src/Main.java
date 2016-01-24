@@ -1,34 +1,60 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class Main {
+	static int n;
+	static ArrayList<Integer> data = new ArrayList<Integer>(1001);
+	static boolean checks[];
+	
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
-        int end = s.length();
-        char[] data = new char[end]; 
         
-        for (int i=0; i < end; i++) {
-        	int x = (int) s.charAt(i);
-
-			if (x >= 65 && x <= 90) {
-				x += 13;
-				if (x > 90) {
-					x = x - 90 + 65 - 1;
-				}
-				data[i] = (char) x;
-			} else if (x >= 97 && x <= 122) {
-				x += 13;
-				if (x > 122) {
-					x = x - 122 + 97 - 1;
-				}
-				data[i] = (char) x;
-			}
-			data[i] = (char) x;
-		}
+        n = sc.nextInt();
+        int m = sc.nextInt();
+        int start = sc.nextInt();
         
-        for (char c : data) {
-        	System.out.print(c);
+        for (int i=0; i<m; i++) {
+        	int from = sc.nextInt();
+        	int to = sc.nextInt();
+        	
+        	data.add(i, from);
+        	data.add(from, to);
         }
+
+        for (int i=0; i<data.size(); i++) {
+        	System.out.println("from == " + data.get(i));
+        	System.out.println("to == " + data.get(data.get(i)));
+        }
+        
+        dfs(start);
+        System.out.println("");
+        bfs(start);
+        
+    }
+    
+    static void dfs(int x) {
+    	for (int i=0; i<n; i++) {
+    		checks[i] = true;
+    		System.out.print(data.get(i));
+    		
+    		if (!checks[i]) {
+    			dfs(i);
+    		}
+    	}
+    }
+    
+    static void bfs(int x) {
+    	Queue<Integer> queue = new LinkedList<Integer>();
+    	
+    	for (int i=0; i<n; i++) {
+    		if (!queue.isEmpty()) {
+    			checks[i] = true;
+    			queue.add(i);
+    			System.out.print(i + " ");
+    		}
+    	}
     }
 
 }
