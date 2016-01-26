@@ -1,32 +1,24 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
 
-		long x = sc.nextInt();
-		long y = sc.nextInt();
+		int n = sc.nextInt();
+		int mod = 2;
+		n = Integer.parseInt(String.valueOf(n), 8);
 		
-		String a = "";
-		String b = "";
+		ArrayList<Integer> data = new ArrayList<Integer>();
 		
-		for (int i=0; i<x; i++) {
-			a = a + "1";
-		}
-		for (int i=0; i<y; i++) {
-			b = b + "1";
+		while (n != 0) {
+			data.add(n%mod);
+			n = n / mod;
 		}
 		
-		System.out.println(gcd(Long.parseLong(a), Long.parseLong(b)));
-	}
-
-	static long gcd(long x, long y) {
-		if (y == 0) {
-			return x;
-		} else {
-			return gcd(y, x % y);
+		for (int i=data.size()-1; i>=0; i--) {
+			System.out.print(data.get(i));
 		}
-
 	}
 
 }
