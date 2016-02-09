@@ -1,33 +1,46 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
-import java.util.Stack;
 
 public class Main {
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+		int[] a = new int[n];
 		
-		String s = sc.nextLine();
-		int size = s.length();
-		Stack<Integer> stack = new Stack<Integer>();
-		int sum = 0;
-		
-		for (int i = 0; i < size; i++) {
-			char x = s.charAt(i);
+		for (int i=0; i<n; i++)
+		while (n-- > 0) {
+			a[i] = sc.nextInt();
+		}
+
+		int m = sc.nextInt();
+
+		while (m-- > 0) {
+			int s = sc.nextInt();
+			System.out.print(binarySearch(s, a) + " ");
+		}
+	}
+	
+	private static int binarySearch(int s, int[] a) {
+
+		int left = 0;
+		int right = a.length-1;
+
+		while (left <= right) {
+			int mid = (left + right) / 2;
+			int val = a[mid];
 			
-			if (x == '(') {
-				stack.push(i);
-			} else {
-				if (stack.peek()+1 == i) {
-					stack.pop();
-					sum += stack.size();
-				} else {
-					stack.pop();
-					sum++;
-				}
+			if (s == val) {
+				return 1;
+			} else if (val > s) {
+				right = mid - 1;
+			} else if (val < s) {
+				left = mid + 1;
 			}
 		}
 		
-		System.out.println(sum);
-
+		return 0;
 	}
 
 }
