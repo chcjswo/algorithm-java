@@ -1,7 +1,9 @@
+package fc.algorithm.divideandconquer;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class NumberCard_01 {
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
 
@@ -26,15 +28,13 @@ public class Main {
 
 		int left = 0;
 		int right = a.length-1;
-		int sum = 0;
 
 		while (left <= right) {
 			int mid = (left + right) / 2;
 			int val = a[mid];
 			
 			if (s == val) {
-				sum++;
-				break;
+				return 1;
 			} else if (val > s) {
 				right = mid - 1;
 			} else if (val < s) {
@@ -42,7 +42,7 @@ public class Main {
 			}
 		}
 		
-		return sum;
+		return 0;
 	}
 
 }
