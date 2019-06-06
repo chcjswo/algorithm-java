@@ -1,4 +1,4 @@
-package fc.algoritm.math;
+package fc.algorithm.math;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package fc.algoritm.inout;
+package fc.algorithm.inout;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package fc.algoritm.datastructure;
+package fc.algorithm.datastructure;
 
 import java.util.Scanner;
 import java.util.Stack;
