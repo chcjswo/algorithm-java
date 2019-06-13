@@ -8,6 +8,7 @@ package resolution.sort;
  */
 public class Insertion {
     public static void main(String[] args) {
+
         int[] data = {10, 1, 14, 4, 6, 7, 3, 11, 5, 23, 22, 224, 356};
 
         int len = data.length;

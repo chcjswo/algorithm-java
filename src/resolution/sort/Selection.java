@@ -1,7 +1,5 @@
 package resolution.sort;
 
-import java.util.Scanner;
-
 /**
  * 선택 정렬
  * Created by chcjswo on 2019-06-12
