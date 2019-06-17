@@ -3,6 +3,7 @@ package baekjoon;
 import java.util.Scanner;
 
 /**
+ * 백준 15649번 문제
  * Created by chcjswo on 2019-06-11
  * Blog: http://mocadev.tistory.com
  * Github: http://github.com/chcjswo
@@ -24,8 +25,5 @@ public class Question_15649 {
             }
             System.out.println();
         }
-    }
-
-    private static void print(int m) {
     }
 }
