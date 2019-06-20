@@ -1,7 +1,6 @@
 package baekjoon;
 
 import java.util.Random;
-import java.util.Scanner;
 
 /**
  * 백준 15890번 문제
