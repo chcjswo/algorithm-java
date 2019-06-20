@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon.completed;
 
 /**
  * 백준 10718번 문제
