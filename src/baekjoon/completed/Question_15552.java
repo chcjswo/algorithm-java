@@ -1,9 +1,10 @@
-package baekjoon.solving;
+package baekjoon.completed;
 
 import java.io.*;
 
 /**
  * 백준 15552번 문제
+ *
  * Created by chcjswo on 2019-06-21
  * Blog: http://mocadev.tistory.com
  * Github: http://github.com/chcjswo
