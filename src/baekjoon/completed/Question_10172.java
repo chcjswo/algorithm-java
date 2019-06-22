@@ -2,6 +2,7 @@ package baekjoon.completed;
 
 /**
  * 백준 10172번 문제
+ *
  * Created by chcjswo on 2019-06-20
  * Blog: http://mocadev.tistory.com
  * Github: http://github.com/chcjswo

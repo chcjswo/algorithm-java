@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /**
  * 백준 1001번 문제
+ *
  * Created by chcjswo on 2019-06-20
  * Blog: http://mocadev.tistory.com
  * Github: http://github.com/chcjswo

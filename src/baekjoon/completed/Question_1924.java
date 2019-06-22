@@ -1,10 +1,10 @@
-package baekjoon.solving;
+package baekjoon.completed;
 
 import java.util.Scanner;
 
 /**
  * 백준 1924번 문제
- * <p>
+ *
  * Created by chcjswo on 2019-06-22
  * Blog: http://mocadev.tistory.com
  * Github: http://github.com/chcjswo

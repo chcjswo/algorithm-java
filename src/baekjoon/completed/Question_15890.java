@@ -4,6 +4,7 @@ import java.util.Random;
 
 /**
  * 백준 15890번 문제
+ *
  * Created by chcjswo on 2019-06-17
  * Blog: http://mocadev.tistory.com
  * Github: http://github.com/chcjswo
