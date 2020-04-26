@@ -1,4 +1,4 @@
-package udemy;
+package udemy.q4;
 
 /**
  * udemy 4-1 문제

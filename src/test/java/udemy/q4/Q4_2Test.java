@@ -1,6 +1,7 @@
-package udemy;
+package udemy.q4;
 
 import org.junit.jupiter.api.Test;
+import udemy.q4.Q4_2;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
