@@ -1,7 +1,6 @@
 package udemy.q4;
 
 import org.junit.jupiter.api.Test;
-import udemy.q4.Q4_1;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -14,9 +13,9 @@ class Q4_1Test {
 
     @Test
     public void test() {
-        Q4_1 q4_1 = new Q4_1();
+        Q4_1 q_1 = new Q4_1();
 
-        assertEquals(123, q4_1.string2int("123") );
-        assertEquals(443322, q4_1.string2int("443322"));
+        assertEquals(123, q_1.string2int("123") );
+        assertEquals(443322, q_1.string2int("443322"));
     }
 }

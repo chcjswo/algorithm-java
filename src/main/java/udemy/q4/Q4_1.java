@@ -8,9 +8,9 @@ package udemy.q4;
  */
 public class Q4_1 {
     public static void main(String[] args) {
-        Q4_1 q4_1 = new Q4_1();
+        Q4_1 q_1 = new Q4_1();
         String data = "3423234";
-        System.out.println(q4_1.string2int(data));
+        System.out.println(q_1.string2int(data));
     }
 
     public int string2int(String data) {
