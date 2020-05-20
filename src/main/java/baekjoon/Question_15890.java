@@ -1,4 +1,4 @@
-package baekjoon.completed;
+package baekjoon;
 
 import java.util.Random;
 
@@ -18,7 +18,7 @@ public class Question_15890 {
         System.out.println(yyyy);
 
         int mm = rnd.nextInt(12);
-        
+
         System.out.println(mm);
 
         int dd = rnd.nextInt(31);
