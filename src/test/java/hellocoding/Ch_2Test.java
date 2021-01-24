@@ -1,6 +1,6 @@
 package hellocoding;
 
-import hellocoding.ch_1.Ch_02;
+import hellocoding.ch_1.Ch_2;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -10,12 +10,12 @@ import org.junit.jupiter.api.Test;
  * @Github http://github.com/chcjswo
  * @since 2021-01-17
  **/
-class Ch_02Test {
+class Ch_2Test {
 
     @Test
     void test() {
         int[] arr = {5, 3, 2, 8, 6};
-        Ch_02 a = new Ch_02();
+        Ch_2 a = new Ch_2();
 
         a.selectionSort(arr);
 

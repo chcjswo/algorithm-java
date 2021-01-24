@@ -7,10 +7,10 @@ package hellocoding.ch_1;
  * @Github http://github.com/chcjswo
  * @since 2021-01-17
  **/
-public class Ch_02 {
+public class Ch_2 {
 
     public static void main(String[] args) {
-        Ch_02 a = new Ch_02();
+        Ch_2 a = new Ch_2();
         int[] arr = {8, 5, 6, 3, 1, 2, 9};
         a.selectionSort(arr);
         for (int i : arr) {

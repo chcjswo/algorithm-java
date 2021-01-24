@@ -7,7 +7,7 @@ import java.util.List;
  * @version 1.0.0
  * @since 2021-01-14
  **/
-public class Ch_01 {
+public class Ch_1 {
 
     public int solution(List<Integer> list, int i) {
         int high = list.size() - 1;

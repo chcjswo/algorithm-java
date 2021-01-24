@@ -10,7 +10,7 @@ import java.util.List;
  * @Github http://github.com/chcjswo
  * @since 2021-01-24
  **/
-public class ch_02 {
+public class ch_2 {
 
     public static void main(String[] args) {
         List<Integer> array = Arrays.asList(1, 2, 3, 4, 5, 6);
