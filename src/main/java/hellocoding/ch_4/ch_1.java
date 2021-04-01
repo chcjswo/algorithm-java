@@ -21,7 +21,7 @@ public class ch_1 {
     public static int sum(List<Integer> array) {
         if (array.size() == 0)
             return 0;
-        return array.get(array.size() - 1) + sum(array.subList(0, array.size() - 1));
+        return array.get(0) + sum(array.subList(1, array.size()));
     }
 
 }
