@@ -1,6 +1,7 @@
 package baekjoon;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Scanner;
 
 /**
@@ -44,6 +45,35 @@ public class Q_17269 {
         }
 
         Arrays.stream(c).forEach(System.out::println);
+
+        HashMap<String, Integer> al = new HashMap<>();
+        al.put("A", 3);
+        al.put("B", 2);
+        al.put("C", 1);
+        al.put("D", 2);
+        al.put("E", 4);
+        al.put("F", 3);
+        al.put("G", 1);
+        al.put("H", 3);
+        al.put("I", 1);
+        al.put("J", 1);
+        al.put("K", 3);
+        al.put("L", 1);
+        al.put("M", 3);
+        al.put("N", 2);
+        al.put("O", 1);
+        al.put("P", 2);
+        al.put("Q", 2);
+        al.put("R", 2);
+        al.put("S", 1);
+        al.put("T", 2);
+        al.put("U", 1);
+        al.put("V", 1);
+        al.put("W", 1);
+        al.put("X", 2);
+        al.put("Y", 2);
+        al.put("Z", 1);
+
     }
 
 }
