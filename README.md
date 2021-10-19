@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to algorithm-java 👋</h1>
+## Welcome to algorithm-java 👋
 <p>
   <a href="https://www.acmicpc.net/">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
