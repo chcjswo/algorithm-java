@@ -19,7 +19,7 @@ class CT_102Test {
 //        assertThat(ct_102.getAlpha(26), is("Z"));
 //        assertThat(ct_102.getAlpha(27), is("AA"));
 //        assertThat(ct_102.getAlpha(106), is("DB"));
-        assertEquals(ct_102.getAlpha(706), "AAD");
+        assertEquals("AAD", ct_102.getAlpha(706));
     }
 
 }
