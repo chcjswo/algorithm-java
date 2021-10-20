@@ -14,6 +14,7 @@ class CT_102Test {
     @Test
     void ct102Test() {
         CT_102 ct_102 = new CT_102();
+
         assertEquals("A", ct_102.getAlpha(1));
         assertEquals("Z", ct_102.getAlpha(26));
         assertEquals("AA", ct_102.getAlpha(27));
