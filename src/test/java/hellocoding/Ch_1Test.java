@@ -18,11 +18,8 @@ class Ch_1Test {
     @Test
     void test() {
         Ch_1 a = new Ch_1();
-
         List<Integer> list =  Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
-
         assertEquals(4, a.solution(list, 5));
-
     }
 
 }
