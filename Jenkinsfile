@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        echo 'Hello Algorithm'
+        echo 'Hello Java Algorithm'
       }
     }
   }
