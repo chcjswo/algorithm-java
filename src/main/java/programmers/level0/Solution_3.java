@@ -9,7 +9,7 @@ import java.util.Arrays;
  * @version 1.0.0
  * @since 2022-11-17
  **/
-public class P_3 {
+public class Solution_3 {
 
     public static void main(String[] args) {
         int[] numbers = {1, 2, 7, 10, 11};

@@ -7,9 +7,9 @@ package programmers.level0;
  * @version 1.0.0
  * @since 2022-11-15
  **/
-public class P_1 {
+public class Solution_1 {
     public static void main(String[] args) {
-        P_1 level01 = new P_1();
+        Solution_1 level01 = new Solution_1();
 //        String[] s = {"aya", "yee", "u", "maa", "wyeoo"};
         String[] s = {"ayaye", "uuuma", "ye", "yemawoo", "ayaa"};
         int solution = level01.solution(s);

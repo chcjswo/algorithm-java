@@ -1,22 +1,24 @@
 package programmers.level0;
 
 /**
- * 피자 나눠 먹기 (3)
+ *
  *
  * @author chcjswo
  * @version 1.0.0
  * @blog https://mocadev.tistory.com
  * @github https://github.com/chcjswo
- * @since 2022-11-19
+ * @since 2022-11-18
  **/
-public class P_9 {
+public class Solution_6 {
 
     public static void main(String[] args) {
-        final int solution = solution(7, 10);
+        int n = 16;
+        final int solution = solution(n);
         System.out.println("solution = " + solution);
     }
 
-    private static int solution(int slice, int n) {
-        return n / slice + (n % slice == 0 ? 0 : 1);
+    private static int solution(int n) {
+        int answer = n / 7;
+        return answer + (n % 7 == 0 ? 0 : 1);
     }
 }

@@ -9,7 +9,7 @@ package programmers.level0;
  * @github https://github.com/chcjswo
  * @since 2022-11-19
  **/
-public class P_10 {
+public class Solution_10 {
 
     public static void main(String[] args) {
         final int solution = solution(150_000);

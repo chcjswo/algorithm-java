@@ -11,7 +11,7 @@ import java.util.Arrays;
  * @github https://github.com/chcjswo
  * @since 2022-11-16
  **/
-public class P_2 {
+public class Solution_2 {
 
     public static void main(String[] args) {
         final int[] solution = solution(1, 2, 3, 4);
