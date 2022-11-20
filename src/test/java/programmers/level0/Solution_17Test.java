@@ -11,37 +11,39 @@ import static org.assertj.core.api.Assertions.assertThat;
  * @version 1.0.0
  * @blog https://mocadev.tistory.com
  * @github https://github.com/chcjswo
- * @since 2022-11-19
+ * @since 2022-11-20
  **/
-class Solution_11Test {
+class Solution_17Test {
 
-    private final Solution_11 solution = new Solution_11();
+    private final Solution_17 solution = new Solution_17();
 
     @Builder
     @Getter
     private static class TestCase {
-        int age;
+        int n;
+        int k;
         int expected;
     }
 
     @Test
     void test_1() {
         TestCase testCase = new TestCase.TestCaseBuilder()
-            .age(40)
-            .expected(1983)
+            .n(10)
+            .k(3)
+            .expected(124000)
             .build();
 
-        assertThat(solution.solution(testCase.getAge())).isEqualTo(testCase.getExpected());
+        assertThat(solution.solution(testCase.getN(), testCase.getK())).isEqualTo(testCase.getExpected());
     }
 
     @Test
     void test_2() {
         TestCase testCase = new TestCase.TestCaseBuilder()
-            .age(23)
-            .expected(2000)
+            .n(64)
+            .k(6)
+            .expected(768000)
             .build();
 
-        assertThat(solution.solution(testCase.getAge())).isEqualTo(testCase.getExpected());
+        assertThat(solution.solution(testCase.getN(), testCase.getK())).isEqualTo(testCase.getExpected());
     }
-
 }

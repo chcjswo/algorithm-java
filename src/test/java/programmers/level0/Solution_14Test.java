@@ -15,14 +15,14 @@ import static org.assertj.core.api.Assertions.assertThat;
  **/
 class Solution_14Test {
 
+    private final Solution_14 solution = new Solution_14();
+
     @Builder
     @Getter
     private static class TestCase {
         int[] nums;
         int[] expected;
     }
-
-    private final Solution_14 solution = new Solution_14();
 
     @Test
     void solution() {
