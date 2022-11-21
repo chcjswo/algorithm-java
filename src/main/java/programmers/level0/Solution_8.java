@@ -7,7 +7,7 @@ package programmers.level0;
  * @version 1.0.0
  * @since 2022-11-18
  **/
-public class P_8 {
+public class Solution_8 {
 
     public static void main(String[] args) {
         int solution = solution(4);

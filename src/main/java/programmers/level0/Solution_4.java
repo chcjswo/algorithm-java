@@ -1,6 +1,9 @@
 package programmers.level0;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * 최빈값 구하기
@@ -9,7 +12,7 @@ import java.util.*;
  * @version 1.0.0
  * @since 2022-11-17
  **/
-public class P_4 {
+public class Solution_4 {
 
     public static void main(String[] args) {
         int[] nums = {1, 1, 4, 4, 4};

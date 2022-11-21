@@ -11,7 +11,7 @@ import java.util.List;
  * @version 1.0.0
  * @since 2022-11-17
  **/
-public class P_5 {
+public class Solution_5 {
 
     public static void main(String[] args) {
         int n = 15;
