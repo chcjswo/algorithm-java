@@ -10,10 +10,10 @@ package programmers.level0;
 public class Solution_51 {
     public int solution(String[] spell, String[] dic) {
         boolean check;
-        for (int j = 0; j < dic.length; j++) {
+        for (String s : dic) {
             check = false;
-            for (int i = 0; i < spell.length; i++) {
-                if (dic[j].contains(spell[i])) {
+            for (String value : spell) {
+                if (s.contains(value)) {
                     check = true;
                 } else {
                     check = false;
