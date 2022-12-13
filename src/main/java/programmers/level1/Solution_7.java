@@ -28,8 +28,3 @@ public class Solution_7 {
         return answer > 500 ? -1 : answer;
     }
 }
-//num = 2505324
-//    num = 1252662
-//    num = 626331
-//    num = 2505324
-//    num = 1252662
