@@ -44,4 +44,24 @@ class Solution_54Test {
 		assertThat(solution.solution(testCase.getScore())).isEqualTo(testCase.getExpected());
 	}
 
+	@Test
+	void test_3() {
+		TestCase testCase = new TestCase.TestCaseBuilder()
+				.score(new int[][]{{1, 1}, {2, 1}, {3, 1}, {4, 1}, {5, 1}, {6, 1}, {7, 1}, {8, 1}, {9, 1}, {0, 0}})
+				.expected(new int[]{9, 8, 7, 6, 5, 4, 3, 2, 1, 10})
+				.build();
+
+		assertThat(solution.solution(testCase.getScore())).isEqualTo(testCase.getExpected());
+	}
+
+	@Test
+	void test_4() {
+		TestCase testCase = new TestCase.TestCaseBuilder()
+				.score(new int[][]{{1, 2}, {1, 1}, {1, 1}})
+				.expected(new int[]{1, 2, 2})
+				.build();
+
+		assertThat(solution.solution(testCase.getScore())).isEqualTo(testCase.getExpected());
+	}
+
 }
