@@ -15,7 +15,6 @@ import static org.assertj.core.api.Assertions.assertThat;
  **/
 class Solution_19Test {
 
-
 	private final Solution_19 solution = new Solution_19();
 
 	@Builder
