@@ -1,4 +1,4 @@
-package programmers.level1;
+package programmers.level2;
 
 import java.util.Arrays;
 
@@ -11,7 +11,7 @@ import java.util.Arrays;
  * @github https://github.com/chcjswo
  * @since 2023-01-14
  **/
-public class Solution_21 {
+public class Solution_5 {
 	public int solution(int[] a, int[] b) {
 		int answer = 0;
 		Arrays.sort(a);
