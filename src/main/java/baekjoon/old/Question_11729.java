@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon.old;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  */
 public class Question_11729 {
     private static int count = 0;
-    private static String print = "";
+    private static final String print = "";
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
