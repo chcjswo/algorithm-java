@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon.old;
 
 public class Q_10170 {
     public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class Q_10170 {
         System.out.println("San Francisco  12  4  0");
         System.out.println("Arizona        10  6  0");
         System.out.println("St. Louis      7   9  0");
-        System.out.println("");
+        System.out.println();
         System.out.println("NFC North      W   L  T");
         System.out.println("-----------------------");
         System.out.println("Green Bay      8   7  1");

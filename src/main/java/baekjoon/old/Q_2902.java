@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon.old;
 
 import java.util.Scanner;
 
@@ -23,7 +23,7 @@ public class Q_2902 {
             }
         }
 
-        System.out.print(sb.toString());
+        System.out.print(sb);
     }
 
 }

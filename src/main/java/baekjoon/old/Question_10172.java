@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon.old;
 
 /**
  * 백준 10172번 문제
